@@ -1,0 +1,29 @@
+
+# Секрети та локальні налаштування
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Windows
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# VS Code: персональні налаштування
+.vscode/*
+!.vscode/extensions.json
+
+# Тимчасові та журнальні файли
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Залежності та результати складання (якщо використовуються)
+node_modules/
+dist/
+build/
+coverage/
